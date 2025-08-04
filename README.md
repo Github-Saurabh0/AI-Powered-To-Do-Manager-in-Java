@@ -1,20 +1,20 @@
-# 🧠 AI-Powered To-Do Manager in Java ✅
+#  AI-Powered To-Do Manager in Java 
 
 Smart CLI-based task manager that auto-categorizes your tasks using intelligent keyword-based logic. No paid API needed - completely free and runs locally!
 
-## 🌟 Features
+##  Features
 
-- ➕ **Add Tasks**: Create new tasks with intelligent auto-categorization
-- 🏷️ **Smart Categories**: Automatic categorization into Work, Personal, Urgent, or General
-- 👀 **View & Filter**: View all tasks, filter by category, status, or search by keywords
-- ✅ **Task Management**: Mark tasks as complete, delete tasks, clear completed tasks
-- 💾 **Persistent Storage**: All data saved locally in JSON format
-- 📊 **Analytics**: Task summary with completion rates and category breakdown
-- 🔍 **Search**: Find tasks quickly using keyword search
-- 🎯 **Confidence Scoring**: See how confident the AI is about categorization
-- 🌐 **Deployment Ready**: Can be hosted on subdomain (todo.saurabhh.in)
+-  **Add Tasks**: Create new tasks with intelligent auto-categorization
+-  **Smart Categories**: Automatic categorization into Work, Personal, Urgent, or General
+-  **View & Filter**: View all tasks, filter by category, status, or search by keywords
+-  **Task Management**: Mark tasks as complete, delete tasks, clear completed tasks
+-  **Persistent Storage**: All data saved locally in JSON format
+-  **Analytics**: Task summary with completion rates and category breakdown
+-  **Search**: Find tasks quickly using keyword search
+-  **Confidence Scoring**: See how confident the AI is about categorization
+-  **Deployment Ready**: Can be hosted on subdomain (todo.saurabhh.in)
 
-## 🧠 AI Categorization Logic
+##  AI Categorization Logic
 
 Tasks are automatically categorized based on keyword analysis:
 
@@ -24,13 +24,13 @@ Keywords: `office`, `project`, `client`, `meeting`, `presentation`, `report`, `d
 ### 👤 Personal Category
 Keywords: `birthday`, `family`, `shopping`, `grocery`, `home`, `house`, `personal`, `friend`, `vacation`, `holiday`, `doctor`, `appointment`, `health`, `exercise`, `gym`, `hobby`, `book`, `movie`, `restaurant`, `dinner`, `lunch`, `breakfast`, `party`, `celebration`, `gift`, `anniversary`, `wedding`, `travel`, `trip`, `visit`, `clean`, `organize`, `repair`, `maintenance`, `garden`, `pet`, `car`, `insurance`, `bank`, `finance`
 
-### 🚨 Urgent Category
+###  Urgent Category
 Keywords: `urgent`, `asap`, `immediately`, `now`, `today`, `emergency`, `critical`, `important`, `priority`, `rush`, `quick`, `fast`, `soon`, `deadline`, `overdue`, `late`, `must`, `need`, `required`, `essential`, `crucial`, `vital`, `pressing`, `time-sensitive`, `hurry`, `instant`, `immediate`
 
-### 📝 General Category
+###  General Category
 Default category for tasks that don't match any specific keywords.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Java 17 or higher
@@ -81,28 +81,28 @@ ai-todo-manager/
 └── .gitignore                # Git ignore rules
 ```
 
-## 💻 Usage Examples
+##  Usage Examples
 
 ### Adding Tasks
 ```
-👉 Enter task title: Submit client proposal by Friday
-✅ Task added successfully!
-📝 Title: Submit client proposal by Friday
-🏷️  Category: 💼 Work
-🎯 Confidence: 85%
-👍 Good categorization! Consider adding more specific keywords for better accuracy.
+ Enter task title: Submit client proposal by Friday
+ Task added successfully!
+ Title: Submit client proposal by Friday
+  Category:  Work
+ Confidence: 85%
+ Good categorization! Consider adding more specific keywords for better accuracy.
 ```
 
 ### Viewing Tasks
 ```
-📋 ALL TASKS
+ ALL TASKS
 ==================================================
-1. ⏳ Submit client proposal [💼Work] - PENDING (Created: 2024-01-15 09:30:00)
-2. ✅ Buy birthday gift for mom [👤Personal] - COMPLETED (Created: 2024-01-15 10:15:00) (Completed: 2024-01-15 18:30:00)
-3. ⏳ Urgent: Fix server issue ASAP [🚨Urgent] - PENDING (Created: 2024-01-15 08:00:00)
+1.  Submit client proposal [Work] - PENDING (Created: 2025-01-15 09:30:00)
+2.  Buy birthday gift for mom [Personal] - COMPLETED (Created: 2025-01-15 10:15:00) (Completed: 2025-01-15 18:30:00)
+3.  Urgent: Fix server issue ASAP [Urgent] - PENDING (Created: 2025-01-15 08:00:00)
 ```
 
-## 🌐 Deployment to Subdomain (todo.saurabhh.in)
+##  Deployment to Subdomain (todo.saurabhh.in)
 
 ### Step 1: Package the Application
 ```bash
@@ -155,7 +155,7 @@ Add A Record in your domain provider (Hostinger):
 - **Value**: `your_server_ip`
 - **TTL**: `3600`
 
-## 📊 Sample tasks.json Format
+##  Sample tasks.json Format
 
 ```json
 [
@@ -176,7 +176,7 @@ Add A Record in your domain provider (Hostinger):
 ]
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Java 17+**: Core programming language
 - **Maven**: Dependency management and build tool
@@ -185,9 +185,9 @@ Add A Record in your domain provider (Hostinger):
 - **Apache/Nginx**: Web server for deployment
 - **JSON**: Local data storage format
 
-## 🎯 Development Roadmap
+##  Development Roadmap
 
-### Day 1 ✅
+### Day 1 
 - [x] Project setup and Maven configuration
 - [x] Core classes: Task, TaskManager, AICategorizer, Main
 - [x] Basic CRUD operations
@@ -212,7 +212,7 @@ Add A Record in your domain provider (Hostinger):
 - [ ] Documentation completion
 - [ ] Testing and bug fixes
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -220,18 +220,18 @@ Add A Record in your domain provider (Hostinger):
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+##  Author
 
 **Saurabh**
-- 🌐 Website: [saurabhh.in](https://saurabhh.in)
-- 📧 Email: contact@saurabhh.in
-- 🚀 Live Demo: [todo.saurabhh.in](https://todo.saurabhh.in)
+-  Portfolio: [saurabhh.in](https://saurabhh.in)
+-  Email: Saurabbh@wearl.co.in
+-  Live Demo: [todo.saurabhh.in](https://todo.saurabhh.in)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Thanks to the Java community for excellent documentation
 - Gson library for seamless JSON handling
