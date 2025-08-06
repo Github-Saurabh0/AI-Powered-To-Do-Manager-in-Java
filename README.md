@@ -49,9 +49,10 @@ Default category for tasks that don't match any specific keywords.
    mvn clean compile
    ```
 
-3. **Run the application**
+3. **Run the application web mode**
    ```bash
-   java -cp target/classes Main
+   1. java -cp target/classes Main
+   2. mvn -q -e exec:java -Dexec.mainClass=Main -Dexec.args=web
    ```
 
    Or using Maven:
