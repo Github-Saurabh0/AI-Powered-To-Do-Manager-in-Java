@@ -196,22 +196,22 @@ Add A Record in your domain provider (Hostinger):
 - [x] CLI interface
 
 ### Day 2 (Planned)
-- [ ] Enhanced UI/UX with better formatting
-- [ ] Advanced search and filtering
-- [ ] Task priority levels
-- [ ] Due date functionality
+- [x] Enhanced UI/UX with better formatting
+- [x] Advanced search and filtering
+- [x] Task priority levels
+- [x] Due date functionality
 
 ### Day 3 (Planned)
-- [ ] Web interface (Spring Boot)
-- [ ] REST API endpoints
-- [ ] Task statistics and analytics
-- [ ] Export/Import functionality
+- [x] Web interface (Spring Boot)
+- [x] REST API endpoints
+- [x] Task statistics and analytics
+- [x] Export/Import functionality
 
 ### Day 4 (Planned)
-- [ ] Deployment optimization
-- [ ] Performance improvements
-- [ ] Documentation completion
-- [ ] Testing and bug fixes
+- [x] Deployment optimization
+- [x] Performance improvements
+- [x] Documentation completion
+- [x] Testing and bug fixes
 
 ##  Contributing
 
