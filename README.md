@@ -229,8 +229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Saurabh**
 -  Portfolio: [saurabhh.in](https://saurabhh.in)
--  Email: Saurabbh@wearl.co.in
--  Live Demo: [todo.saurabhh.in](https://todo.saurabhh.in)
+-  Email: Saurabh@wearl.co.in
 
 ##  Acknowledgments
 
