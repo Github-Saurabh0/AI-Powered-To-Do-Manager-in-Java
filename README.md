@@ -30,8 +30,6 @@ Keywords: `urgent`, `asap`, `immediately`, `now`, `today`, `emergency`, `critica
 ###  General Category
 Default category for tasks that don't match any specific keywords.
 
-##  Quick Start
-
 ### Prerequisites
 - Java 17 or higher
 - Maven 3.6 or higher
@@ -82,7 +80,9 @@ ai-todo-manager/
 └── .gitignore                # Git ignore rules
 ```
 
-##  Usage Examples
+##  Project Main Preview
+![Main Live Project](src/resources/Project_Main.png)
+
 
 ### Adding Tasks
 ```
