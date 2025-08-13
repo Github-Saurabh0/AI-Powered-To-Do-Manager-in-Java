@@ -81,7 +81,7 @@ ai-todo-manager/
 ```
 
 ##  Project Main Preview
-![Main Live Project](src/resources/Project Main Preview.png)
+![Main Live Project](src/resources/Project-Main-Preview.png)
 
 
 ### Adding Tasks
